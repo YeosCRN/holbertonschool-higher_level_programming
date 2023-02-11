@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Sixth"""
+
+
 class Square:
     """Square class."""
 
