@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Firts class"""
+"""Zero"""
 
 
 class Square:

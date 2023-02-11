@@ -1,12 +1,9 @@
 #!/usr/bin/python3
+"""first"""
+
+
 class Square:
     """Square class."""
-
     def __init__(self, size):
-        """__init__ method for Square.
-
-        Args:
-            size (int): size of Square.
-
-        """
+        """with atributte"""
         self.__size = size
