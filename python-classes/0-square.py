@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" Firts class"""
+
+
 class Square:
-    """An empty class Square."""
+    """ Empy Class"""
     pass
