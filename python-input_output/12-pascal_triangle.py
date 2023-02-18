@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Twelve"""
 
 
 def pascal_triangle(n):
@@ -23,14 +24,3 @@ def pascal_triangle(n):
                     matrix[r][c] = matrix[r - 1][c - 1] + matrix[r - 1][c]
 
     return matrix
-
-
-if __name__ == '__main__':
-    def print_triangle(triangle):
-        """
-        Print the triangle
-        """
-        for row in triangle:
-            print("[{}]".format(",".join([str(x) for x in row])))
-
-    print_triangle(pascal_triangle(8))
