@@ -3,6 +3,7 @@
 
 
 class BaseGeometry:
+    """BaseGeometry class with area method"""
     def area(self):
         raise Exception("area() is not implemented")
 
@@ -14,7 +15,7 @@ class BaseGeometry:
 
 
 class Rectangle(BaseGeometry):
-
+    """Rectangle class"""
     def __init__(self, width, height):
         super().integer_validator("width", width)
         super().integer_validator("height", height)
@@ -30,6 +31,7 @@ class Rectangle(BaseGeometry):
 
 
 class Square(Rectangle):
+    """Square class"""
     def __init__(self, size):
         super().integer_validator("size", size)
         super().__init__(size, size)
