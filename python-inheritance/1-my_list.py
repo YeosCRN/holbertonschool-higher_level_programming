@@ -3,11 +3,11 @@
 
 
 class MyList(list):
-    def print_sorted(self):
-        """Use bubble sort to create a sorted list to print
+    """Use bubble sort to create a sorted list to print
         Args:
             self (list): unsorted list
         """
+    def print_sorted(self):
         arr = self[:]
         done = False
         while not done:
